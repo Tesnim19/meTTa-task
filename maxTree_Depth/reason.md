@@ -1,4 +1,4 @@
-### Reasoning for Maximum Depth Calculation Using Structural Induction
+### Reasoning for Maximum Depth Calculation
 
 **Base Case**: A tree with only a root node has a depth of 1. The function handles this by returning `1` when the tree consists solely of a single node `($x)`.
 
