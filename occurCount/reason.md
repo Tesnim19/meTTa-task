@@ -6,9 +6,9 @@
 
 **Inductive Step**: 
 - For a tree with three nodes `($x $y $z)`, the function recursively counts the occurrences in each subtree and the root:
-  - `count $x $symbol`: Counts occurrences in the left subtree.
-  - `count $y $symbol`: Counts occurrences in the right subtree.
-  - `count $z $symbol`: Counts occurrences in an additional subtree or node.
+  - `count $x $symbol`: Checks if root is the symbol.
+  - `count $y $symbol`: Counts occurrences in the left subtree.
+  - `count $z $symbol`: Counts occurrences in the right subtree.
   The function sums these counts, ensuring it captures all occurrences of the symbol in the tree.
 - For a tree with two nodes `($x $y)`, the function recursively counts occurrences in both the child and the root, summing the results.
 
