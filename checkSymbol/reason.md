@@ -6,9 +6,9 @@
 
 **Inductive Step**: 
 - For a tree with two children `($x $y $z)`, the function recursively checks each subtree and the root. It uses logical `or` to combine the results:
-  - `symbol-exist $x $symbol`: Checks the left subtree.
-  - `symbol-exist $y $symbol`: Checks the right subtree.
-  - `symbol-exist $z $symbol`: Checks the additional subtree or the root node itself.
+  - `symbol-exist $x $symbol`: Checks the root.
+  - `symbol-exist $y $symbol`: Checks the left subtree.
+  - `symbol-exist $z $symbol`: Checks the right subtree.
   The presence of `or` ensures that if the symbol exists in any part of the tree, the function returns `True`.
 - For a tree with one child `($x $y)`, the function similarly checks both the child and the root using logical `or`.
 
