@@ -43,9 +43,9 @@ This structure can represent any binary tree, including complex nested trees.
 
 ## Test Cases
 
-Max Depth: !(max-depth (a b (c (d f (g h)) e))) : Will return 5
-Symbol Existence: !(symbol-exist (a b (c (e f (g h)) e)) e) : Will return True
-Count Symbol Occurrences: !(count (a b (c (e f (g h)) e)) e) : Will return 2
+Max Depth: `!(max-depth (a b (c (d f (g h)) e)))` : Will return 5.
+Symbol Existence: `!(symbol-exist (a b (c (e f (g h)) e)) e)` : Will return True.
+Count Symbol Occurrences: `!(count (a b (c (e f (g h)) e)) e)` : Will return 2.
 
 
 ## Reasoning
